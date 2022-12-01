@@ -28,6 +28,9 @@ public class Main {
 
         }
 
-        System.out.println(maxStack);
+        System.out.println("Max value: " + maxStack.peek());
+        Long sumTopThree = 0L;
+        while(maxStack.size() > 0) sumTopThree += maxStack.pop();
+        System.out.println("Top 3: " + sumTopThree);
     }
 }

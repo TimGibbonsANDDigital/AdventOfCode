@@ -8,7 +8,7 @@ public class Main {
 
     public static void main(String[] args) throws IOException {
 
-        BufferedReader br = new BufferedReader(new FileReader(new File("src/_2022.day1/input.txt")));
+        BufferedReader br = new BufferedReader(new FileReader(new File("src/_2022/day1/input.txt")));
         String line;
         Long calCount = 0L;
         Stack<Long> maxStack = new Stack<>();
